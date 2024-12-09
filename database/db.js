@@ -2,9 +2,9 @@ const mysql = require('mysql2');
 
 // Configuración de la conexión a la base de datos
 const connection = mysql.createConnection({
-  host: 'localhost',
+  host: 'autorack.proxy.rlwy.net',
   user: 'root',           
-  password: '12345', 
+  password: 'fhvuJOZRXsrtUPHgzWynsTyAILUekLRQ', 
   database: 'escuela'                                  
 });
 
