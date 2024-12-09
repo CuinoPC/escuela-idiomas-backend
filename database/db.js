@@ -2,10 +2,11 @@ const mysql = require('mysql2');
 
 // Configuración de la conexión a la base de datos
 const connection = mysql.createConnection({
-  host: 'sql310.infinityfree.com',
-  user: 'if0_37879797',           
-  password: 'n8c6Kw7VUvf', 
-  database: 'if0_37879797_escuela',                               
+  host: 'fdb1028.awardspace.net',
+  user: '4561807_escuela',           
+  password: 'Cuino2003*', 
+  database: '4561807_escuela',
+  port: 3306                                  
 });
 
 // Verifica la conexión
