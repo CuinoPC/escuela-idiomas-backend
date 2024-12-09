@@ -1,0 +1,22 @@
+{
+  "name": "backend-escuela-idioma",
+  "version": "1.0.0",
+  "description": "Backend para una escuela de idiomas con Node.js y MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
