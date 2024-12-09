@@ -2,11 +2,10 @@ const mysql = require('mysql2');
 
 // Configuración de la conexión a la base de datos
 const connection = mysql.createConnection({
-  host: 'mysql-hune.railway.internal',
-  user: 'root',           
-  password: 'fhvuJOZRXsrtUPHgzWynsTyAILUekLRQ', 
-  database: 'railway',
-  port: 3306                                  
+  host: 'sql310.infinityfree.com',
+  user: 'if0_37879797',           
+  password: 'n8c6Kw7VUvf', 
+  database: 'if0_37879797_escuela',                               
 });
 
 // Verifica la conexión
