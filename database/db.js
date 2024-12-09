@@ -2,10 +2,10 @@ const mysql = require('mysql2');
 
 // Configuración de la conexión a la base de datos
 const connection = mysql.createConnection({
-  host: 'fdb1028.awardspace.net',
-  user: '4561807_escuela',           
-  password: 'Cuino2003*', 
-  database: '4561807_escuela',
+  host: 'sql5.freesqldatabase.com',
+  user: 'sql5750814',           
+  password: 'BINjBsEnQP', 
+  database: 'sql5750814',
   port: 3306                                  
 });
 
