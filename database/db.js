@@ -2,11 +2,11 @@ const mysql = require('mysql2');
 
 // Configuración de la conexión a la base de datos
 const connection = mysql.createConnection({
-  host: 'autorack.proxy.rlwy.net',
+  host: 'mysql-hune.railway.internal',
   user: 'root',           
   password: 'fhvuJOZRXsrtUPHgzWynsTyAILUekLRQ', 
-  database: 'escuela',
-  port: 36569                                  
+  database: 'railway',
+  port: 3306                                  
 });
 
 // Verifica la conexión
