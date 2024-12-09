@@ -3,6 +3,11 @@ const userModel = require('../models/userModel');  // Asegúrate de que el model
 // Crear nuevo usuario (Profesor o Estudiante)
 exports.createUser = (req, res) => {
     const { name, matricula, role, password } = req.body;
+
+    if (!name || !matricula || !role || !password) {
+        return res.status(400).json({ message: 'Faltan datos requeridos' });
+    }
+
     const newUser = { name, matricula, role, password };
 
     userModel.createUser(newUser, (err, result) => {
