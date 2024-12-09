@@ -5,7 +5,8 @@ const connection = mysql.createConnection({
   host: 'autorack.proxy.rlwy.net',
   user: 'root',           
   password: 'fhvuJOZRXsrtUPHgzWynsTyAILUekLRQ', 
-  database: 'escuela'                                  
+  database: 'escuela',
+  port: 36569                                  
 });
 
 // Verifica la conexión
